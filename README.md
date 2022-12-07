@@ -17,3 +17,12 @@ On building the distribution of selected predictors, we noticed that there were 
 Mutual information score was used for feature seleection. This was used because all the predictors were categorical variables. After calculating mutual information score for all the predictors, the number of predictors to use was narrowed down from 23 to 14. 
 
 These 14 predictors had significant relationship to the target variable, class. The threshold was a MI score of 0.06. 
+
+## Feature Engineering
+
+All the features were categorical data and they were transformed to numerical features using one-hot encoding (OHE). The DictVectorizer module in SKLearn was used for this. 
+
+## Model Building
+
+Using the lazypredict python library, it was discovered that boosting models were top of the list in giving accurate predictions, so I went for XGBoost Classifier. 
+
