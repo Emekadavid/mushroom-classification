@@ -29,18 +29,27 @@ Using the lazypredict python library, it was discovered that boosting models wer
 ## Exporting notebook to script
 
 The notebook used for the sections above, `notebook.ipynb` was exported to a script. The name of the script is `train.py`. To do this, use the command:
+
 ```jupyter nbconvert --to python notebook.ipynb```
+
 Then rename the script. 
 
 ## How to run the files in this repo
 
 You need to run the files in a virtual environment. I used pipenv because it is very convenient and easy to use. Follow these steps:
+
 1. Clone this repo first of all in your local environment. 
+
 2. Create a virtual environment for it. To use pipenv first install pipenv:
+
 ``` pip install pipenv```
+
 3. Then create the environment by navigating to the directory of the cloned repo and then running this command. The requirements.txt file is already in the repo. 
+
 ```pipenv shell```
+
 4. Then install all the dependencies needed:
+
 ```pipenv install -r requirements.txt```
 
 ## Deploying in a web service using flask
@@ -48,14 +57,19 @@ You need to run the files in a virtual environment. I used pipenv because it is 
 I deployed the app locally using flask as the web service. Note that the following commands assume you are using a Linux machine. 
 
 1. To run the server, use this command:
+
 ```gunicorn --bind 0.0.0.0:9696 predict:app```
 
 If you are on a windows machine, install waitress first using `pipenv install waitress`. Waitress would replace gunicorn because gunicorn doesn't run on a Windows machine. Then run the server as:
+
 ```waitress-serve --listen=0.0.0.0:9696 predict:app```
 
 2. Then open another terminal and pipe into the virtual environment shell:
+
 ```pipenv shell```
+
 Then run the test script:
+
 ```python3 test.py```
 
 It will print out the result, whether the mushroom species is edible or poisonous. 
