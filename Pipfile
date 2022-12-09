@@ -13,6 +13,7 @@ xgboost = "*"
 flask = "*"
 gunicorn = "*"
 requests = "*"
+streamlit = "*"
 
 [dev-packages]
 
