@@ -232,6 +232,6 @@ print(metrics.classification_report(y_test, prediction_full))
 # It's now time to save the model
 
 # The model and encoder is saved as a binary file using pickle
-with open('model2.bin', 'wb') as f_out:
+with open('./model/model.bin', 'wb') as f_out:
    pickle.dump((dv_final, model_final), f_out)
 f_out.close() 

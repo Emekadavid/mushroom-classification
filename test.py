@@ -2,19 +2,19 @@
 import requests
 
 mushroom = {'bruises': "no",
- 'odor': "none",
+ 'odor': "creosote",
  'gill-spacing': "crowded",
- 'gill-size': "broad",
- 'gill-color': "chocolate",
- 'stalk-root': "equal",
- 'stalk-surface-above-ring': "fibrous",
- 'stalk-surface-below-ring': "fibrous",
+ 'gill-size': "narrow",
+ 'gill-color': "gray",
+ 'stalk-root': "bulbous",
+ 'stalk-surface-above-ring': "smooth",
+ 'stalk-surface-below-ring': "smooth",
  'stalk-color-above-ring': "white",
  'stalk-color-below-ring': "white",
- 'ring-type': "evanescent",
- 'spore-print-color':"black",
- 'population': "abundant",
- 'habitat': "grasses"}
+ 'ring-type': "pendant",
+ 'spore-print-color':"brown",
+ 'population': "several",
+ 'habitat': "woods"}
 
 ## the route we made for prediction
 url = 'http://localhost:9696/mushroom_classification'
