@@ -78,3 +78,4 @@ You can predict for several mushroom species by editing the test.py file. Just i
 
 ## Deployment on streamlit
 
+Successfully deployed on streamlit. With streamlit, the public can now easily and flexibly test the app as a web app on the internet. Just click on this link, [Mushroom Classification Streamlit App](https://emekadavid-mushroom-classification-streamlitapp-keifjp.streamlit.app/), and it will take you directly to the streamlit app. I will now make a basic video on how to use the app. 
