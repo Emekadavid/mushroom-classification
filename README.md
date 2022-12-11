@@ -76,6 +76,30 @@ It will print out the result, whether the mushroom species is edible or poisonou
 
 You can predict for several mushroom species by editing the test.py file. Just input the figures for your desired species into the `mushroom` variable in the file. That variable is a python dictionary with the features as keys. 
 
-## Deployment on streamlit
+## Containerization of the app
+
+Containerization is now the norm for web apps. I will show you how to build a docker image. You can run the docker image locally or deploy it to the cloud, like AWS or Azure.
+
+1. Get the base image that would be used to power the image. We will be using a python 3.8.10 image for this. 
+
+``` docker run -it --rm python:3.8.10-slim ``` 
+
+2. Build the docker image for the mushroom classification app. I have created the Dockerfile for this so you just need to run the following command:
+
+``` docker build -t mushroom-classificatioin . ```
+
+The docker image is named mushroom-classification. 
+
+3. You can now run the docker image to get predictions. Just use this command to run the docker image locally:
+
+``` docker run -it -p 9696:9696 mushroom-classification:latest ```
+
+4. To test it and get your prediction, open a second terminal and run the `test.py` file. 
+
+``` python3 test.py ```
+
+That's it! You have run the docker image locally. 
+
+## Deployment on Streamlit Cloud
 
 Successfully deployed on streamlit. With streamlit, the public can now easily and flexibly test the app as a web app on the internet. Just click on this link, [Mushroom Classification Streamlit App](https://emekadavid-mushroom-classification-streamlitapp-keifjp.streamlit.app/), and it will take you directly to the streamlit app. I will now make a basic video on how to use the app. 
