@@ -107,6 +107,6 @@ Successfully deployed on streamlit. With streamlit, the public can now easily an
 ## Video Demonstration
 
 I created a video demonstration of how to run the mushroom classification app. Here is it:
-[Video Demonstration of the app](https://www.youtube.com/watch?v=_3N4q6Zv6TA). 
+[Video Demonstration of the app(https://img.youtube.com/vi/_3N4q6Zv6TA/0.jpg)](https://www.youtube.com/watch?v=_3N4q6Zv6TA). 
 
 Thanks for watching. I hope you do give the video a like. Have a great day. 
