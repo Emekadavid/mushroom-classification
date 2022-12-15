@@ -103,3 +103,10 @@ That's it! You have run the docker image locally.
 ## Deployment on Streamlit Cloud
 
 Successfully deployed on streamlit. With streamlit, the public can now easily and flexibly test the app as a web app on the internet. Just click on this link, [Mushroom Classification Streamlit App](https://emekadavid-mushroom-classification-streamlitapp-keifjp.streamlit.app/), and it will take you directly to the streamlit app. I will now make a basic video on how to use the app. 
+
+## Video Demonstration
+
+I created a video demonstration of how to run the mushroom classification app. Here is it:
+[Video Demonstration of the app](https://www.youtube.com/watch?v=_3N4q6Zv6TA). 
+
+Thanks for watching. I hope you do give the video a like. Have a great day. 
