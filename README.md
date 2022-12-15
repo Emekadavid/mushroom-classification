@@ -110,4 +110,4 @@ I created a video demonstration of how to run the mushroom classification app. H
 
 [![Video Demonstration of the app](./image/mushroom_classification.PNG)](https://www.youtube.com/watch?v=_3N4q6Zv6TA). 
 
-Thanks for watching. I hope you do give the video a like. Have a great day. 
+Click on the image above, and the video will start playing. Thanks for watching. I hope you do give the video a like. Have a great day. 
